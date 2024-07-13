@@ -13,6 +13,7 @@ This is a simple command-line Expense Tracker program written in C++. The progra
 ## Compilation
 To compile the program, use the following command in the terminal:
 ```g++ expense_tracker.cpp -o expense_tracker```
+
 This will generate an executable file named expense_tracker.
 
 ## Running the Program
@@ -31,11 +32,11 @@ To run the program, use the following command in the terminal:
 **string:** For string operations.
 
 ## Functions
-1. getCurrentDateTime(): Returns the current date and time as a string.
-2. isValidAmount(const string &amountStr): Validates that the amount is a valid numeric value and non-negative.
-3. appendExpense(const string &description, const string &amountStr): Appends an expense to the file.
-4. displayExpenses(): Displays all recorded expenses from the file.
-5. summarizeExpenses(): Summarizes the total amount of all recorded expenses.
+1. **getCurrentDateTime():** Returns the current date and time as a string.
+2. **isValidAmount(const string &amountStr):** Validates that the amount is a valid numeric value and non-negative.
+3. **appendExpense(const string &description, const string &amountStr):** Appends an expense to the file.
+4. **displayExpenses():** Displays all recorded expenses from the file.
+5. **summarizeExpenses():** Summarizes the total amount of all recorded expenses.
 
 ## Main Function
 The main function provides a menu-driven interface for the user to interact with the program. It continuously displays the menu until the user chooses to exit.
@@ -81,21 +82,17 @@ int main() {
 ```
 # Usage
 1. Enter an expense:
-
-Select option 1 from the menu.
-Enter the expense description.
-Enter the expense amount.
-The expense is recorded in the expenses.txt file along with the current date and time.
+   -Select option 1 from the menu.
+   -Enter the expense description.
+   -Enter the expense amount.
+   -The expense is recorded in the expenses.txt file along with the current date and time.
 
 2. Display all expenses:
-
-Select option 2 from the menu.
-All recorded expenses will be displayed.
+   -Select option 2 from the menu.
+   -All recorded expenses will be displayed.
 
 3. Summarize total expenses:
-
-Select option 3 from the menu.
-The total amount of all recorded expenses will be displayed.
-4.vExit:
-
-Select option 4 from the menu to exit the program.
+   -Select option 3 from the menu.
+   -The total amount of all recorded expenses will be displayed.
+4. Exit:
+   -Select option 4 from the menu to exit the program.
